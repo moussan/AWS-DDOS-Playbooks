@@ -16,6 +16,7 @@ Steps:
 - Activate the AWS Shield Response Team (SRT) if using AWS Shield Advanced.
 
 **Outcome: Attack identified, initial response team activated.**
+
 ---
 
 **2. Traffic Analysis and Classification**
@@ -27,6 +28,7 @@ Steps:
 - Identify common attack vectors such as SYN flood or HTTP floods.
 
 **Outcome: Clear classification of attack sources and patterns.**
+
 ---
 
 **3. Rate Limiting and Access Control**
@@ -38,6 +40,7 @@ Steps:
 - Use geoblocking for regions contributing to attack traffic.
 
 **Outcome: Reduction in malicious traffic reaching the application.**
+
 ---
 
 **4. Traffic Diversion and Scrubbing**
@@ -49,6 +52,7 @@ Steps:
 - Configure Route 53 to reroute traffic dynamically.
 
 **Outcome: Malicious traffic minimized before reaching resources.**
+
 ---
 
 **5. Scaling Resources to Absorb Attack**
@@ -60,6 +64,7 @@ Steps:
 - Adjust S3 bucket settings for higher read/write demands.
 
 **Outcome: Services remain operational despite attack.**
+
 ---
 
 **6. Incident Communication and Stakeholder Engagement**
@@ -71,6 +76,7 @@ Steps:
 - Collaborate with AWS Shield Response Team if needed.
 
 **Outcome: Stakeholders informed and engaged in real-time.**
+
 ---
 
 **7. Proactive Mitigation with Predefined Rules**
@@ -82,6 +88,7 @@ Steps:
 - Leverage AWS Shield Advanced for automated threat intelligence.
 
 **Outcome: Reduction in future attack vectors' effectiveness.**
+
 ---
 
 **8. Post-Incident Review and Forensics**
@@ -93,6 +100,7 @@ Steps:
 - Conduct a root cause analysis and document lessons learned.
 
 **Outcome: Comprehensive post-mortem analysis completed.**
+
 ---
 
 **9. Policy and Governance Updates**
@@ -104,6 +112,7 @@ Steps:
 - Incorporate new insights into security training and policies.
 
 **Outcome: Improved security posture and updated governance framework.**
+
 ---
 
 **10. Automation and Testing**
@@ -115,6 +124,5 @@ Steps:
 - Test incident response with tabletop exercises and simulated DDoS attacks.
 
 **Outcome: Automated, well-tested response workflows.**
----
 
 ---
