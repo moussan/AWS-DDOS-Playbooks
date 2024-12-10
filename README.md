@@ -1,9 +1,10 @@
 # AWS-DDOS-Playbooks
  Creating playbooks for a professional, standards-based security response to a DDoS attack in an AWS cloud environment involves structuring each playbook with clear objectives, steps, roles, tools, and outcomes.
  Here are sample JSON configurations and templates for the playbooks mentioned. These are designed for AWS services like AWS WAF, AWS Shield, and related tools to automate security response actions. You can adapt them to your specific environment.
- These templates and configurations can be combined and tailored for your environment.
 
-**Creating playbooks for a professional, standards-based security response to a DDoS attack in an AWS cloud environment involves structuring each playbook with clear objectives, steps, roles, tools, and outcomes. Below are 10 essential playbooks tailored to address different aspects of a DDoS attack in an AWS setting:**
+## These templates and configurations can be combined and tailored for your environment.
+
+### Creating playbooks for a professional, standards-based security response to a DDoS attack in an AWS cloud environment involves structuring each playbook with clear objectives, steps, roles, tools, and outcomes. Below are 10 essential playbooks tailored to address different aspects of a DDoS attack in an AWS setting:
 
 **1. Detection and Initial Response**
 Objective: Quickly detect and confirm the DDoS attack.
