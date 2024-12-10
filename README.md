@@ -6,7 +6,7 @@
 
 ### Creating playbooks for a professional, standards-based security response to a DDoS attack in an AWS cloud environment involves structuring each playbook with clear objectives, steps, roles, tools, and outcomes. Below are 10 essential playbooks tailored to address different aspects of a DDoS attack in an AWS setting:
 
-**1. Detection and Initial Response**
+==**1. Detection and Initial Response**==
 
 Objective: Quickly detect and confirm the DDoS attack.
 Steps:
