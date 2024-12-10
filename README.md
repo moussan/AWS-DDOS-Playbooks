@@ -10,10 +10,10 @@
 
 Objective: Quickly detect and confirm the DDoS attack.
 Steps:
-A. Enable AWS Shield and monitor AWS CloudWatch for anomalies.
-B. Use AWS WAF to detect traffic spikes and malicious patterns.
-C. Confirm attack type and scale using AWS Trusted Advisor and Shield metrics.
-D. Activate the AWS Shield Response Team (SRT) if using AWS Shield Advanced.
+- Enable AWS Shield and monitor AWS CloudWatch for anomalies.
+- Use AWS WAF to detect traffic spikes and malicious patterns.
+- Confirm attack type and scale using AWS Trusted Advisor and Shield metrics.
+- Activate the AWS Shield Response Team (SRT) if using AWS Shield Advanced.
 
 **Outcome: Attack identified, initial response team activated.**
 
@@ -21,9 +21,9 @@ D. Activate the AWS Shield Response Team (SRT) if using AWS Shield Advanced.
 
 Objective: Classify incoming traffic to identify legitimate vs. malicious sources.
 Steps:
-A. Analyze CloudFront logs and VPC flow logs for unusual IP patterns.
-B. Use AWS Athena to query logs for specific attack vectors.
-C. Identify common attack vectors such as SYN flood or HTTP floods.
+- Analyze CloudFront logs and VPC flow logs for unusual IP patterns.
+- Use AWS Athena to query logs for specific attack vectors.
+- Identify common attack vectors such as SYN flood or HTTP floods.
 
 **Outcome: Clear classification of attack sources and patterns.**
 
@@ -31,9 +31,9 @@ C. Identify common attack vectors such as SYN flood or HTTP floods.
 
 Objective: Mitigate attack impact using rate limiting and IP-based controls.
 Steps:
-A. Apply rate-limiting rules in AWS WAF.
-B. Block malicious IPs using NACLs or Security Groups.
-C. Use geoblocking for regions contributing to attack traffic.
+- Apply rate-limiting rules in AWS WAF.
+- Block malicious IPs using NACLs or Security Groups.
+- Use geoblocking for regions contributing to attack traffic.
 
 **Outcome: Reduction in malicious traffic reaching the application.**
 
@@ -41,9 +41,9 @@ C. Use geoblocking for regions contributing to attack traffic.
 
 Objective: Redirect and scrub traffic to protect core infrastructure.
 Steps:
-A. Use Amazon CloudFront for caching and distributing traffic.
-B. Redirect traffic through AWS Global Accelerator for scrubbing.
-C. Configure Route 53 to reroute traffic dynamically.
+- Use Amazon CloudFront for caching and distributing traffic.
+- B. Redirect traffic through AWS Global Accelerator for scrubbing.
+- Configure Route 53 to reroute traffic dynamically.
 
 **Outcome: Malicious traffic minimized before reaching resources.**
 
@@ -51,9 +51,9 @@ C. Configure Route 53 to reroute traffic dynamically.
 
 Objective: Ensure infrastructure can handle the increased load.
 Steps:
-A. Use Auto Scaling to dynamically scale EC2 instances and ELBs.
-B. Optimize RDS and DynamoDB capacity to handle increased requests.
-C. Adjust S3 bucket settings for higher read/write demands.
+- Use Auto Scaling to dynamically scale EC2 instances and ELBs.
+- Optimize RDS and DynamoDB capacity to handle increased requests.
+- Adjust S3 bucket settings for higher read/write demands.
 
 **Outcome: Services remain operational despite attack.**
 
@@ -61,9 +61,9 @@ C. Adjust S3 bucket settings for higher read/write demands.
 
 Objective: Keep stakeholders informed and engaged.
 Steps:
-A. Notify stakeholders via AWS SNS or a dedicated incident management tool.
-B. Provide regular updates on attack status, impact, and response actions.
-C. Collaborate with AWS Shield Response Team if needed.
+- Notify stakeholders via AWS SNS or a dedicated incident management tool.
+- Provide regular updates on attack status, impact, and response actions.
+- Collaborate with AWS Shield Response Team if needed.
 
 **Outcome: Stakeholders informed and engaged in real-time.**
 
@@ -71,9 +71,9 @@ C. Collaborate with AWS Shield Response Team if needed.
 
 Objective: Preemptively mitigate known DDoS vectors.
 Steps:
-A. Implement AWS WAF managed rules for common attack patterns.
-B. Use custom rules to block known malicious IP ranges.
-C. Leverage AWS Shield Advanced for automated threat intelligence.
+- Implement AWS WAF managed rules for common attack patterns.
+- Use custom rules to block known malicious IP ranges.
+- Leverage AWS Shield Advanced for automated threat intelligence.
 
 **Outcome: Reduction in future attack vectors' effectiveness.**
 
@@ -81,9 +81,9 @@ C. Leverage AWS Shield Advanced for automated threat intelligence.
 
 Objective: Investigate the attack and assess response effectiveness.
 Steps:
-A. Gather logs from CloudWatch, CloudTrail, and VPC Flow Logs.
-B. Analyze the logs using AWS Athena and QuickSight for trends.
-C. Conduct a root cause analysis and document lessons learned.
+- Gather logs from CloudWatch, CloudTrail, and VPC Flow Logs.
+- Analyze the logs using AWS Athena and QuickSight for trends.
+- Conduct a root cause analysis and document lessons learned.
 
 **Outcome: Comprehensive post-mortem analysis completed.**
 
@@ -91,9 +91,9 @@ C. Conduct a root cause analysis and document lessons learned.
 
 Objective: Enhance security policies and governance based on attack insights.
 Steps:
-A. Review IAM policies and ensure least privilege is enforced.
-B. Update NACLs, Security Groups, and WAF rules based on attack patterns.
-C. Incorporate new insights into security training and policies.
+- Review IAM policies and ensure least privilege is enforced.
+- Update NACLs, Security Groups, and WAF rules based on attack patterns.
+- Incorporate new insights into security training and policies.
 
 **Outcome: Improved security posture and updated governance framework.**
 
@@ -101,8 +101,8 @@ C. Incorporate new insights into security training and policies.
 
 Objective: Automate responses and test readiness for future attacks.
 Steps:
-A. Implement AWS Lambda for automated threat response actions.
-B. Set up periodic penetration testing using AWS Inspector.
-C. Test incident response with tabletop exercises and simulated DDoS attacks.
+- Implement AWS Lambda for automated threat response actions.
+- Set up periodic penetration testing using AWS Inspector.
+- Test incident response with tabletop exercises and simulated DDoS attacks.
 
 **Outcome: Automated, well-tested response workflows.**
